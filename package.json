@@ -1,0 +1,28 @@
+{
+  "name": "bluetoothctl",
+  "version": "1.0.1",
+  "description": "linux bluetoothctl wrapper (also works with arm devices like raspberry pi)",
+  "main": "bluetoothctl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jense-arntz/bluetoothctl"
+  },
+  "keywords": [
+    "bluetoothctl",
+    "bluetooth",
+    "speaker",
+    "audio",
+    "linux",
+    "music",
+    "mp3"
+  ],
+  "author": "Serkan Polat",
+  "license": "MIT",
+  "dependencies": {
+    "ptyw.js": "^0.4.1",
+    "strip-ansi": "^3.0.1"
+  }
+}
